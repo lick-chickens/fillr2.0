@@ -12,7 +12,9 @@ MessageBox.Show("This is the third message!");
 I can make this a template:
 ```
 MessageBox.Show("This is the <<count>> message!");
+
 ```
+(Note the newline that is included above.)
 
 Then fillr2.0 will iterate through the template infinitely and prompt you to input ```<<count>>``` each iteration.
 
